@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hotel list</title>
+
+       <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+     <div class="w-full h-[500px] ">
+        <div class="w-full h-[100px] relative shadow-xl  text-[20px]   ">
+            <div class="py-[20px]">
+            <i class="fa-solid fa-plane pl-[100px] "></i>
+                <h1 class=" pl-[130px] mt-[-30px]">Find Flight</h1>
+            </div>
+
+                <div class=" ml-[250px]  mt-[-50px]">
+            <i class="fa-solid fa-bed  "></i>
+            <h1 class="ml-[30px] mt-[-27px]">Find Stays</h1>
+            </div>
+
+            <div class="ml-[600px] font-semibold mt-[-50px] text-[40px]">
+                            <h1>g<span class="text-[#8DD3BB]">e</span>lobe</h1>
+
+            </div>
+
+            <!-- heart -->
+             
+       
+        <div class="ml-[1000px] mt-[-40px]">
+             <i class="fa-solid fa-heart"></i>
+             <h3 class="pl-[20px] mt-[-30px]">Favourites</h3>
+             <img src="" alt="">
+             </div>
+
+              </div>
+
+
+               <!-- box -->
+        <div class="relative h-[150px]  w-[1000px] ml-[90px] bg-white shadow-lg rounded-xl mt-16 p-6 flex  gap-4">
+      <div class="flex-1">
+        <label class="block text-sm font-medium text-gray-700 mb-1">Enter Destination</label>
+        <input type="text" placeholder="somalia,somali land" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500" />
+      </div>
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-1">Check In</label>
+        <input type="date" class="px-4 py-2 border rounded-md" />
+      </div>
+      
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-1">Check Out</label>
+        <input type="date" class="px-4 py-2 border rounded-md " />
+      </div>
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-1">Rooms & Guests</label>
+        <div class="px-4 py-2 border rounded-md ">
+          <h3>1 room, 2 guests</h3>
+        </div>
+      </div>
+    </div>
+
+
+            <!-- left side -->
+             <div class="flex gap-[10px]">
+
+        <div class="w-[400px] h-[1400px] bg-white rounded-lg shadow-md mt-[20px] ml-[20px]">
+            <h1 class="text-xl font-semibold mb-4">filters</h1>
+                <p class="pt-[10px]">Price</p>
+
+
+                <!-- xariqmada dhuubta -->
+                    <div class="w-[350px] h-[2px]  absolute  ml-[25px] mt-[10px]  bg-black">
+
+            <!-- wareeg yar ee gesaha -->
+
+                <div class="w-[30px] h-[30px] relative  rounded-full ml-[-10px] mt-[-10px] bg-[#8DD3BB]">
+                    <h1 class="pt-[30px] font-semibold">$50</h1>
+                </div>
+                <!-- dhanka bidix kuuska caagrka -->
+                  <div class="w-[30px] h-[30px] relative  rounded-full ml-[340px] mt-[-30px] bg-[#8DD3BB]">
+                <h1 class="pt-[30px] ml-[-20px] font-semibold">$1200</h1>
+                </div>
+
+
+             </div>
+
+             <!-- xariigmp dher ee qafifta -->
+              <div class="bg-slate-500 w-[400px] h-[2px] mt-[100px]"></div>
+
+                <!-- xariqmada dhuubta -->
+                 <p class="pt-[50px]"> Departure Time</p>
+                    <div class="w-[350px] h-[2px]  absolute  ml-[25px] mt-[10px]  bg-black">
+
+            <!-- wareeg yar ee gesaha -->
+
+                <div class="w-[30px] h-[30px] relative  rounded-full ml-[-10px] mt-[-10px] bg-[#8DD3BB]">
+                    <h1 class="pt-[30px] font-semibold">$50</h1>
+                </div>
+                <!-- dhanka bidix kuuska caagrka -->
+                  <div class="w-[30px] h-[30px]   rounded-full ml-[340px] mt-[-30px] bg-[#8DD3BB]">
+                <h1 class="pt-[30px] ml-[-20px] font-semibold">$1200</h1>
+                </div>
+
+
+             </div>
+
+              <!-- xariigmp dher ee qafifta -->
+              <div class="bg-slate-500 w-[400px] h-[2px] mt-[100px]"></div>
+
+
+                <div class="mt-[40px]">
+              <h2>Rating</h2>
+              <div class="flex gap-3 ml-[20px] mt-[20px]">
+              <div class="w-[50px] h-[30px] border border-[#8DD3BB] rounded-[4px] ">
+              <p class="text-[14px]  text-center mt-1"> 0+</p>           
+            </div>
+
+            <div class="w-[50px] h-[30px] border border-[#8DD3BB] rounded-[4px] ">
+              <p class="text-[14px]  text-center mt-1"> 1+</p>           
+            </div>
+
+             <div class="w-[50px] h-[30px] border border-[#8DD3BB] rounded-[4px] ">
+              <p class="text-[14px]  text-center mt-1">2+</p>           
+            </div>
+             <div class="w-[50px] h-[30px] border border-[#8DD3BB] rounded-[4px] ">
+              <p class="text-[14px]  text-center mt-1">3+</p>           
+            </div>
+             <div class="w-[50px] h-[30px] border border-[#8DD3BB] rounded-[4px] ">
+              <p class="text-[14px]  text-center mt-1">+4</p>           
+            </div>
+            </div>
+
+                          <!-- xariigmp dher ee qafifta -->
+              <div class="bg-slate-500 w-[400px] h-[2px] mt-[100px]"></div>
+
+
+            <!-- aorlines -->
+            <h1 class="text-[30px]">Airlines</h1>
+            <div class="flex flex-col gap-4">
+                 <div class="w-[30px] h-[30px] ml-[20px] border-[2px] border-black rounded-[4px] ">
+              <p class="pl-[30px]">Emirated</p>          
+            </div>
+
+                             <div class="w-[30px] h-[30px] ml-[20px] border-[2px] border-black rounded-[4px] ">
+              <p class="pl-[30px]">flydubai</p>          
+            </div>
+                             <div class="w-[30px] h-[30px] ml-[20px] border-[2px] border-black rounded-[4px] ">
+              <p class="pl-[30px]">qatar</p>          
+            </div>
+                             <div class="w-[30px] h-[30px] ml-[20px] border-[2px] border-black rounded-[4px] ">
+              <p class="pl-[30px]">Etihad</p>          
+            </div>
+            </div>
+
+            </div>
+
+             <!-- xariigmp dher ee qafifta -->
+              <div class="bg-slate-500 w-[400px] h-[2px] mt-[100px]"></div>
+
+
+                <div class="mt-[40px]">
+              <h2>Rating</h2>
+              <div class="flex gap-3 ml-[20px] mt-[20px]">
+              <div class="w-[50px] h-[30px] border border-[#8DD3BB] rounded-[4px] ">
+              <p class="text-[14px]  text-center mt-1"> 0+</p>           
+            </div>
+
+            <div class="w-[50px] h-[30px] border border-[#8DD3BB] rounded-[4px] ">
+              <p class="text-[14px]  text-center mt-1"> 1+</p>           
+            </div>
+
+             <div class="w-[50px] h-[30px] border border-[#8DD3BB] rounded-[4px] ">
+              <p class="text-[14px]  text-center mt-1">2+</p>           
+            </div>
+             <div class="w-[50px] h-[30px] border border-[#8DD3BB] rounded-[4px] ">
+              <p class="text-[14px]  text-center mt-1">3+</p>           
+            </div>
+             <div class="w-[50px] h-[30px] border border-[#8DD3BB] rounded-[4px] ">
+              <p class="text-[14px]  text-center mt-1">+4</p>           
+            </div>
+            </div>
+
+                          <!-- xariigmp dher ee qafifta -->
+              <div class="bg-slate-500 w-[400px] h-[2px] mt-[100px]"></div>
+
+
+            <!-- aorlines -->
+            <h1 class="text-[30px]">Airlines</h1>
+            <div class="flex flex-col gap-4">
+                 <div class="w-[30px] h-[30px] ml-[20px] border-[2px] border-black rounded-[4px] ">
+              <p class="pl-[30px]">Emirated</p>          
+            </div>
+
+                             <div class="w-[30px] h-[30px] ml-[20px] border-[2px] border-black rounded-[4px] ">
+              <p class="pl-[30px]">flydubai</p>          
+            </div>
+                             <div class="w-[30px] h-[30px] ml-[20px] border-[2px] border-black rounded-[4px] ">
+              <p class="pl-[30px]">qatar</p>          
+            </div>
+                             <div class="w-[30px] h-[30px] ml-[20px] border-[2px] border-black rounded-[4px] ">
+              <p class="pl-[30px]">Etihad</p>          
+            </div>
+            </div>
+
+
+
+                
+
+            </div>
+        
+        </div>
+
+             
+                    <!-- right -->
+             <div class="bg-white  w-[700px] h-[530px] rounded-lg shadow-md mt-[20px] ml-[20px]">
+                        <div class=" h-[150px]  w-[600px] bg-white rounded-md shadow-black shadow-md ml-[30px] ">
+
+
+
+             </div>
+
+             <div class="mt-[30px]">
+                <p>Showing 4 of 257 places</p>
+                <div>
+                <p>Sort by Recommended</p>
+                </div>
+             </div>
+             <div class=" flex flex-col gap-10">
+                <div class="flex gap-5">
+                   
+                 <img class="rounded-2xl w-[300px] h-[300px]" src="image/image_home/7e4a08e967eaa378312eca22d0bd8fa83e200848.jpg" alt="">
+                    
+
+                 <div class="p-4">
+      <h2 class="text-xl font-bold">CVK Park Bosphorus Hotel Istanbul</h2>
+      <p class="text-sm text-gray-600">Cumhuriyet Mah. İnönü Cad, No:8, Istanbul</p>
+      <!-- <div class="flex items-center mt-2 text-yellow-500"> -->
+         <div class="mt-[10px] ml-[1px] flex">
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+               </div>
+                     <p class="text-sm mt-[-20px] ml-[100px] text-gray-600">20+ Amenities</p>
+
+
+               <div class="w-[50px] h-[30px] border border-[#8DD3BB] rounded-[4px] mt-[10px] ">
+              <p class="text-[14px]  text-center mt-1">4.5</p>  
+              <h1 class="font-bold pl-[50px] mt-[-25px]">VeryGood </h1> 
+              <p class="ml-[130px] mt-[-25px]">371reviews</p>
+            </div>
+
+      </div>  
+               
+                </div>
+                <!-- xariigmp dher ee qafifta -->
+              <div class="bg-slate-500 w-[350px] h-[2px] ml-[300px] mt-[-150px] "></div>
+                    <div>
+                    <div class="w-[30px] h-[30px] border pl-[10px] border-[#8DD3BB] rounded-[4px] mt-[10px] ml-[330px] ">
+                 <i class="fa-solid fa-heart"></i>
+
+                        <button class="bg-[#8DD3BB] w-[300px] h-[50px] ml-[60px] mt-[-100px]"><a href="CV park.html">View Place</a></button>
+                    </div>
+                </div>
+
+
+                <!-- boxes2 -->
+
+                                <div class="flex gap-5">
+                   
+                 <img class="rounded-2xl w-[300px] h-[300px]" src="image/image_home/7e4a08e967eaa378312eca22d0bd8fa83e200848.jpg" alt="">
+                    
+
+                 <div class="p-4">
+      <h2 class="text-xl font-bold">CVK Park Bosphorus Hotel Istanbul</h2>
+      <p class="text-sm text-gray-600">Cumhuriyet Mah. İnönü Cad, No:8, Istanbul</p>
+      <!-- <div class="flex items-center mt-2 text-yellow-500"> -->
+         <div class="mt-[10px] ml-[1px] flex">
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+               </div>
+                     <p class="text-sm mt-[-20px] ml-[100px] text-gray-600">20+ Amenities</p>
+
+
+               <div class="w-[50px] h-[30px] border border-[#8DD3BB] rounded-[4px] mt-[10px] ">
+              <p class="text-[14px]  text-center mt-1">4.5</p>  
+              <h1 class="font-bold pl-[50px] mt-[-25px]">VeryGood </h1> 
+              <p class="ml-[130px] mt-[-25px]">371reviews</p>
+            </div>
+
+      </div>  
+               
+                </div>
+                <!-- xariigmp dher ee qafifta -->
+              <div class="bg-slate-500 w-[350px] h-[2px] ml-[300px] mt-[-150px] "></div>
+                    <div>
+                    <div class="w-[30px] h-[30px] border pl-[10px] border-[#8DD3BB] rounded-[4px] mt-[10px] ml-[330px] ">
+                 <i class="fa-solid fa-heart"></i>
+
+                        <button class="bg-[#8DD3BB] w-[300px] h-[50px] ml-[60px] mt-[-100px]"><a href="CV park.html">View Place</a></button>
+                    </div>
+                </div>
+
+                                <div class="flex gap-5">
+                   
+                 <img class="rounded-2xl w-[300px] h-[300px]" src="image/image_home/7e4a08e967eaa378312eca22d0bd8fa83e200848.jpg" alt="">
+                    
+
+                 <div class="p-4">
+      <h2 class="text-xl font-bold">CVK Park Bosphorus Hotel Istanbul</h2>
+      <p class="text-sm text-gray-600">Cumhuriyet Mah. İnönü Cad, No:8, Istanbul</p>
+      <!-- <div class="flex items-center mt-2 text-yellow-500"> -->
+         <div class="mt-[10px] ml-[1px] flex">
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+               </div>
+                     <p class="text-sm mt-[-20px] ml-[100px] text-gray-600">20+ Amenities</p>
+
+
+               <div class="w-[50px] h-[30px] border border-[#8DD3BB] rounded-[4px] mt-[10px] ">
+              <p class="text-[14px]  text-center mt-1">4.5</p>  
+              <h1 class="font-bold pl-[50px] mt-[-25px]">VeryGood </h1> 
+              <p class="ml-[130px] mt-[-25px]">371reviews</p>
+            </div>
+
+      </div>  
+               
+                </div>
+                <!-- xariigmp dher ee qafifta -->
+              <div class="bg-slate-500 w-[350px] h-[2px] ml-[300px] mt-[-150px] "></div>
+                    <div>
+                    <div class="w-[30px] h-[30px] border pl-[10px] border-[#8DD3BB] rounded-[4px] mt-[10px] ml-[330px] ">
+                 <i class="fa-solid fa-heart"></i>
+
+                        <button class="bg-[#8DD3BB] w-[300px] h-[50px] ml-[60px] mt-[-100px]"><a href="CV park.html">View Place</a></button>
+                    </div>
+                </div>
+
+             </div>
+
+             
+             </div>
+
+         
+
+
+</body>
+</html>
